@@ -6,7 +6,7 @@
     <artifactId>cloudgparent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>../cloud-config-center</module>
+        <module>../cloud-config-server</module>
         <module>../cloud-consumer</module>
         <module>../cloud-registration-center</module>
         <module>../cloud-service</module>

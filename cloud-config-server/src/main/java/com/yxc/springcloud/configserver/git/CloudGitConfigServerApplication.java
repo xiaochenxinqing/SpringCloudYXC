@@ -9,8 +9,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class CloudGitConfigServerApplication {
 
 	public static void main(String[] args) {
-		args = new String[1];
-		args[0] = "--spring.profiles.active=git";//设置读取应用配置的文件名
 		SpringApplication.run(CloudGitConfigServerApplication.class, args);
 	}
 }
